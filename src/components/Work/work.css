@@ -1,0 +1,17 @@
+.work{
+    /* margin: auto;
+    width: 80%; */
+    padding: 80px 0 50px 0;
+    color: white;
+}
+.work__primary--heading{
+    font-size: 3rem;
+    /* padding: 5% 0 0 0; */
+}
+.work__card_box{
+    padding: 4rem 0 2rem 0;
+}
+.work__card_box__heading{
+    font-size: 1.8rem;
+    font-weight: normal;
+}

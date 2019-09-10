@@ -1,0 +1,39 @@
+.work-card{
+    margin-top: 2%;
+    background-color: #0439D9;
+    padding: 10px;
+    border-radius: 10px;
+    /* width: 100%; */
+}
+.work-card__thumbnail{
+    background-color: ghostwhite;
+    display: inline-block;
+    text-align: center;
+}
+.work-card--heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 10px 0 5px 0;
+}
+.work-card--tag{
+    color: #056CF2;
+    font-size: 1.4rem;
+    font-family: 'Lora', serif;
+}
+.work-card--desc{
+    font-size: 1.6rem;
+    font-family: 'Hind Madurai', sans-serif;
+}
+.work-card--visit-btn{
+    display: block;
+    text-decoration: none;
+    margin: 30px 0 0 0;
+    width: 25%;
+}
+.work-card--tech{
+    display: block;
+    font-size: 1.2rem;
+    margin: 10px 0 5px 0;
+    color: #056CF2;
+}

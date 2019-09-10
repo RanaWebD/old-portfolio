@@ -1,0 +1,64 @@
+.home{
+  /* background-color:var(--primary-color-two); */
+  height: 100vh;
+  width: 100%;
+}
+.logo{
+  width: 150px;
+  padding-top: 50px;
+}
+.banner{
+  color: white;
+  padding-top: 200px
+}
+.banner__primary-heading--main{
+  display: block;
+  font-size: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.banner__primary-heading--sub{
+  font-size: 3.5rem;  
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+}
+.banner__secondary-heading{
+  font-size: 2rem;
+  font-family: 'Courier New', sans-serif;
+  font-weight: 300;
+}
+.ellipse{
+  width: 80%;
+  height: auto;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* z-index: 50; */
+}
+@media only screen and (max-width: 900px) {
+  .banner__primary-heading--main{
+    display: block;
+    font-size: 5rem;
+  }
+  .banner__primary-heading--sub{
+    font-size: 3rem;  
+  }
+  .banner__secondary-heading{
+    font-size: 1.6rem;
+  }  
+}
+@media only screen and (max-width: 600px) {
+  .banner{
+    width: 70%; 
+  }
+  .banner__primary-heading--main{
+    display: block;
+    font-size: 3rem;
+  }
+  .banner__primary-heading--sub{
+    font-size: 1.6rem;  
+  }
+  .banner__secondary-heading{
+    font-size: 1.4rem;
+  }  
+}

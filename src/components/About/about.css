@@ -1,0 +1,30 @@
+.about{
+    color: white;
+    min-height: 100vh;
+    margin: auto;
+    width: 80%;
+}
+.about__content{
+    width: 70%;
+    padding: 80px 0 50px 0;
+}
+.about__primary--heading{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.about--desc{
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+.about--email{
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+.about--add{
+    font-size: 1.3rem;
+}
+.about__btn{
+    width: 200px;
+    margin-top: 5%;
+}
