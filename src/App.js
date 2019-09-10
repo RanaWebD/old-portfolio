@@ -10,7 +10,7 @@ import About from "./components/About/About";
 
 function App(props) {
   return (
-    <Router>
+    <Router basename="/portfolio/" >
       <div className="app">
         <SidePopupNav />
         <Route exact path="/" component={Home} />

@@ -20,7 +20,7 @@ const navListItem = obj => {
 const data1 = [
   {
     title: "Home",
-    url: "./assets/home.SVG                                                     "
+    url: "./assets/home.svg"
   },
 
   {
@@ -32,7 +32,7 @@ const data1 = [
 const data2 = [
   {
     title: "Skills",
-    url: "./assets/skills.SVG"
+    url: "./assets/skills.svg"
   },
 
   {
